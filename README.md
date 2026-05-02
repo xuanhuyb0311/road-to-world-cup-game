@@ -17,7 +17,7 @@ Sau khi bật GitHub Pages, có thể truy cập:
   https://xuanhuyb0311.github.io/road-to-world-cup-game/maingame/index.html
 
 - **Xem giới thiệu và hướng dẫn:**  
-  https://xuanhuyb0311.github.io/road-to-world-cup-game/documentation/guide.html?v=4
+  https://xuanhuyb0311.github.io/road-to-world-cup-game/documentation/guide.html?v=5
 
 ---
 
