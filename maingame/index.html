@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROADTOWORLDCUP</title>
+    <link rel="shortcut icon" href="img/character/messi.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body 
+
+class="w-full h-full overflow-x-hidden fixed bg-cover bg-no-repeat bg-fixed">
+    <!-- FIX: Thêm Preloader và Modal để tránh lỗi JavaScript "null style" -->
+    <!-- Enhanced Preloader -->
+<div class="preloader">
+    <img src="img/balloon.png" class="loader-ball" alt="Loading">
+</div>
+    <!-- Level 2 Modal - Cửa sổ thông báo khi đạt mốc điểm -->
+    <div id="level2Modal" class="modal-overlay fixed inset-0 z-[100] flex items-center justify-center hidden bg-black/60 backdrop-blur-sm transition-all duration-500 opacity-0 pointer-events-none">
+        <div class="bg-white rounded-3xl p-8 max-w-sm w-full mx-4 shadow-2xl transform transition-all scale-90">
+            <div class="text-center">
+                <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-10 h-10 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Well Done!</h2>
+                <p class="text-gray-600 mb-8">You've reached a milestone. Ready to take on Level 2?</p>
+                <div class="flex flex-col gap-3">
+                    <button id="btnProceedLevel2" class="w-full px-6 py-4 bg-gradient-to-r from-red-500 to-orange-500 text-white rounded-2xl hover:shadow-xl hover:scale-105 transition-all font-bold text-lg">
+                        Proceed to Level 2
+                    </button>
+                    <button id="btnCloseModal" class="w-full px-6 py-3 text-gray-400 hover:text-gray-600 transition-colors font-medium">
+                        Maybe later
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END FIX -->
+
+    <!-- Particle Effects Container -->
+    <div class="particles" id="particles"></div>
+    <div class="gaa w-full h-full absolute flex justify-center items-center">
+        <div
+            class="score w-[90px] h-[50px] bg-black opacity-80 absolute top-[30px] rounded-[10px] flex justify-center items-center hidden score-pulse">
+            <h2 class="text-[30px] text-white font-bold">0</h2>
+        </div>
+        <!-- Only restart game -->
+        <div class="clkTest hidden flex justify-center items-center cursor-pointer">
+           <img src="img/restart.png" class="w-[180px] lg:w-[220px] restart-img">
+        </div>
+        <div class="w-full h-full menue absolute z-[90] flex flex-col justify-start items-center">
+            <div class="my-[10px] menu-bg p-6 rounded-2xl shadow-2xl flex justify-center">
+               <img src="img/logo.png" class="w-[250px] lg:w-[320px]">
+        </div>
+            <!-- Game Instructions -->
+            
+            <div class="absolute top-[80px] left-[80px] z-50">
+              <img src="img/howtoplay.png" class="w-[250px] lg:w-[320px]">
+            </div>
+                <div class="mt-[-30px] play flex justify-center items-center cursor-pointer">
+                  <img src="img/play.png" class="w-[220px] lg:w-[300px] play-btn">
+            </div>
+            <div class="property flex justify-center mt-[20px]">
+                <ul class="aly flex justify-center">
+                    <!-- select -->
+                    <li id="char"
+                       class="menu-item w-[80px] h-[80px] mx-[10px] flex justify-center items-center cursor-pointer">
+    
+                     <img src="img/swap.png"
+                       class="w-full h-full object-contain pointer-events-none hover:scale-110 transition duration-300" />
+                        <div class="w-[480px] lg:w-[480px] cont hero h-auto bg-[#FDECB8] absolute flex justify-center flex-wrap rounded-[15px] hidden shadow-2xl"
+                            style="top: 60px;">
+                            <div
+                                class="w-full h-[50px] bg-[#D4F6DD] relative top-0 left-0 flex items-center rounded-t-[15px] justify-between px-4">
+                                <h4 class="text-[20px] font-bold text-gray-800">Select character</h4>
+                                <button class="text-back text-[20px] font-bold text-red-600">×</button>
+                            </div>
+                            <div class="p-4 flex flex-wrap justify-center">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="clk">
+        <div class="relative sm:left-[0%] lg:left-[40%]">
+            <!-- main DIV game -->
+            <div class="w-[90000px] main h-[100vh] relative right-[0px] items-end flex duration-500 overflow-x-auto">
+                <!-- Hero character -->
+                <div class="ball bg-cover bg-no-repeat absolute bottom-[35%] left-[15px] z-50 duration-500">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+</html>
