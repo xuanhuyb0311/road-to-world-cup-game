@@ -281,7 +281,11 @@ btnCloseModal?.addEventListener('click', hideLevel2Modal);
         clk.style.pointerEvents = null
         wood()
     })
+    const back = [
 
+        "url('backgr.png')"
+
+    ]
 
     let ts = parseInt(Math.random() * back.length)
     let num = null;
