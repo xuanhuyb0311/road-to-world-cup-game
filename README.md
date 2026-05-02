@@ -76,7 +76,7 @@ road-to-world-cup-game
     │   ├── cot.png
     │   ├── howtoplay.png
     │   ├── logo.png
-    │   ├── maybefinal.png
+    │   ├── architecture.png
     │   ├── play.png
     │   ├── restart.png
     │   └── swap.png
