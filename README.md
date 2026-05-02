@@ -157,6 +157,6 @@ Tài liệu hướng dẫn: documentation/guide.html
 
 ---
 
-## Tác giả
+## DỰ ÁN
 
 Dự án được thực hiện trong học phần **Đồ họa máy tính**.
