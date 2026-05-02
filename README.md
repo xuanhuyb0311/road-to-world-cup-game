@@ -14,7 +14,7 @@ Dự án được xây dựng bằng **HTML, CSS và JavaScript**, chạy trực
 Sau khi bật GitHub Pages, có thể truy cập:
 
 - **Chơi game:**  
-  https://xuanhuyb0311.github.io/road-to-world-cup-game/maingame/index.html
+  https://xuanhuyb0311.github.io/road-to-world-cup-game/maingame/index.html?v=3
 
 - **Xem giới thiệu và hướng dẫn:**  
   https://xuanhuyb0311.github.io/road-to-world-cup-game/documentation/guide.html?v=5
