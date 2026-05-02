@@ -2,8 +2,7 @@
 
 ## Giới thiệu
 
-**ROAD TO WORLD CUP** là một trò chơi web lấy chủ đề bóng đá World Cup.  
-Người chơi điều khiển nhân vật vượt qua các chướng ngại vật, ghi điểm và cố gắng đạt thành tích cao nhất.
+**ROAD TO WORLD CUP** là game web 2D dạng arcade casual. Người chơi nhấn giữ để kéo dài thanh gỗ, thả tay để thanh đổ xuống, giúp nhân vật vượt qua khoảng trống giữa các trụ.
 
 Dự án được xây dựng bằng **HTML, CSS và JavaScript**, chạy trực tiếp trên trình duyệt mà không cần cài đặt server.
 
@@ -11,7 +10,6 @@ Dự án được xây dựng bằng **HTML, CSS và JavaScript**, chạy trực
 
 ## Demo Online
 
-Sau khi bật GitHub Pages, có thể truy cập:
 
 - **Chơi game:**  
   https://xuanhuyb0311.github.io/road-to-world-cup-game/maingame/index.html?v=10
