@@ -12,10 +12,10 @@ Dự án được xây dựng bằng **HTML, CSS và JavaScript**, chạy trực
 
 
 - **Chơi game:**  
-  https://xuanhuyb0311.github.io/road-to-world-cup-game/maingame/index.html?v=10
+  https://xuanhuyb0612.github.io/road-to-world-cup-game/maingame/index.html?v=10
 
 - **Xem giới thiệu và hướng dẫn:**  
-  https://xuanhuyb0311.github.io/road-to-world-cup-game/documentation/guide.html
+  https://xuanhuyb0612.github.io/road-to-world-cup-game/documentation/guide.html
 
 ---
 
