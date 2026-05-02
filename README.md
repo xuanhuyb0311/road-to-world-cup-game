@@ -130,7 +130,7 @@ documentation/guide.html
 
 Hoặc bấm trực tiếp:
 
-👉 **[Xem Documentation](./documentation/guide.html)**
+ **[Xem Documentation](./documentation/guide.html)**
 
 ---
 
