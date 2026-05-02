@@ -282,11 +282,6 @@ btnCloseModal?.addEventListener('click', hideLevel2Modal);
         wood()
     })
 
-    const back = [
-
-        "url('img/10600816_41524.png')"
-
-    ]
 
     let ts = parseInt(Math.random() * back.length)
     let num = null;
