@@ -283,7 +283,7 @@ btnCloseModal?.addEventListener('click', hideLevel2Modal);
     })
     const back = [
 
-        "url('backgr.png')"
+        "url('img/backgr.png')"
 
     ]
 
