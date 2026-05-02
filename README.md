@@ -25,7 +25,7 @@ Sau khi bật GitHub Pages, có thể truy cập:
 
 Người dùng có thể mở trang Documentation để xem giới thiệu game và hướng dẫn chơi:
 
-👉 **[Mở trang Documentation](./documentation/guide.html)**
+ **[Mở trang Documentation](./documentation/guide.html)**
 
 Trang Documentation bao gồm:
 
