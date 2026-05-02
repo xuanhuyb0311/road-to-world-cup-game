@@ -15,7 +15,7 @@ Dự án được xây dựng bằng **HTML, CSS và JavaScript**, chạy trực
   https://xuanhuyb0311.github.io/road-to-world-cup-game/maingame/index.html?v=10
 
 - **Xem giới thiệu và hướng dẫn:**  
-  https://xuanhuyb0311.github.io/road-to-world-cup-game/documentation/guide.html?v=5
+  https://xuanhuyb0311.github.io/road-to-world-cup-game/documentation/guide.html
 
 ---
 
